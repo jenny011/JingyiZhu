@@ -31,7 +31,7 @@ function draw(){
   line(x1,-height,x1,height);
   pop();
 
-  if(time>150){
+  if(time>90){
     window.setTimeout('window.location.replace("works/index.html")',50);
   }
 }
