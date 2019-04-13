@@ -37,5 +37,6 @@ function draw(){
   }
   if(jump){
     window.setTimeout('window.location.replace("works/index.html")',10);
+    jump=false;
   }
 }
