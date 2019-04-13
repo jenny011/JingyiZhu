@@ -36,6 +36,6 @@ function draw(){
     jump = true;
   }
   if(jump){
-    window.setTimeout('window.location.replace("works/index.html")',50);
+    window.setTimeout('window.location.replace("works/index.html")',10);
   }
 }
