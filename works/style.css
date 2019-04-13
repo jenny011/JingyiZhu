@@ -1,0 +1,41 @@
+body{
+  padding: 0;
+  margin: 0;
+  cursor:default;
+  font-family: "Anaheim";
+  background-color: rgb(220,220,220);
+}
+#header{
+  padding:1%;
+  font-size:250%;
+  width:12%;
+}
+#header:hover{
+  cursor:pointer;
+  color:rgb(255,255,255);
+}
+.footer{
+  position:absolute;
+  bottom:1%;
+  padding-left:1%;
+  padding-top:0.5%;
+  border-color: black;
+  border-top-style: solid;
+  border-width: 1px;
+  width:100%;
+  font-size: 130%;
+}
+.work{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.workbox{
+  margin:5%;
+  width:40%;
+  font-size:130%;
+}
+.workbox:hover{
+  cursor:pointer;
+  color:rgb(255,255,255);
+}
