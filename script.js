@@ -4,6 +4,7 @@ let o=1;
 let next = document.getElementById("next");
 next.addEventListener("click",function(){mouse=true;});
 let time = 0;
+let jump = false;
 
 function setup(){
   var cnv = createCanvas(window.innerWidth,window.innerHeight);
@@ -32,6 +33,9 @@ function draw(){
   pop();
 
   if(time>110){
+    jump = true;
+  }
+  if(jump){
     window.setTimeout('window.location.replace("works/index.html")',50);
   }
 }
