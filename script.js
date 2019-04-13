@@ -32,11 +32,15 @@ function draw(){
   line(x1,-height,x1,height);
   pop();
 
-  if(time>110){
+  if(time>170){
     jump = true;
   }
   if(jump){
-    window.setTimeout('window.location.replace("works/index.html")',800);
+    go();
     jump=false;
+    noLoop();
   }
+}
+function go(){
+  window.setTimeout('window.location.replace("works/index.html")',10);
 }
