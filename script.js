@@ -20,8 +20,8 @@ function draw(){
   if(mouse){
     rotate(radians(frameCount*1.2));
     time ++;
-    x1 +=1.8;
-    y1 +=3.6;
+    x1 +=2;
+    y1 +=4;
     o -= 0.008;
   }
   header.style.opacity = o.toString();
