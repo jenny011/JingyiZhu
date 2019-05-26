@@ -134,12 +134,12 @@ html,body{
 #footerlink{
   color:black;
 }
-#innerlink{
+.innerlink{
   color:white;
 }
 #footerlink:hover{
   color:white;
 }
-#innerlink:hover{
+.innerlink:hover{
   color:rgb(200,200,200);
 }
