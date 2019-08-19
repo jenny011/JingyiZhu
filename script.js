@@ -32,7 +32,7 @@ function draw(){
   line(x1,-height,x1,height);
   pop();
 
-  if(time>170){
+  if(time>100){
     jump = true;
   }
   if(jump){
