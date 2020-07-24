@@ -4,33 +4,32 @@ html,body{
   overflow: hidden;
   cursor:default;
   font-family: "Anaheim";
-  background-color: rgb(220,220,220);
+  font-size: 110%;
+  background-color: rgb(241, 250, 238);
 }
-#header{
-  margin:0;
-  background-color: rgba(220,220,220,0);
-  position:absolute;
-  top:36.5%;
-  left:29%;
-  color:rgb(0,0,0);
-  display:flex;
+a{
+  font-family: "Anaheim";
+  color:rgb(63, 123, 157);
+  font-weight:bold;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  color:rgb(230, 57, 70);
+}
+.header,.experience,.projects,.contact,.intro{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+  background-color: rgba(241, 250, 238,0);
+  width: 60%;
+  color: rgb(29, 53, 87);
+  display: flex;
   flex-direction: column;
 }
-.headbox{
-  font-size: 150%;
+.headbox,.contactbox,.introbox{
   text-align: left;
 }
 #name{
-  font-size: 400%;
-}
-#next{
-  font-size: 400%;
-  width:7%;
-  color:rgb(0,0,0);
-  position:relative;
-  left:95%;
-}
-#next:hover{
-  cursor:pointer;
-  color:white;
+  font-size: 200%;
 }

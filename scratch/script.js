@@ -42,5 +42,5 @@ function draw(){
   }
 }
 function go(){
-  window.setTimeout('window.location.assign("works/index.html")',10);
+  window.setTimeout('window.location.assign("projects/index.html")',10);
 }
