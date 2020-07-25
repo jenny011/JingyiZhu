@@ -17,7 +17,7 @@ a:hover{
   cursor: pointer;
   color:rgb(230, 57, 70);
 }
-.header,.experience,.projects,.contact,.intro,.project{
+.header,.experience,.contact,.intro,.project{
   margin-top: 2%;
   margin-bottom: 3%;
   margin-left: 2%;
