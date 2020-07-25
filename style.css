@@ -17,7 +17,7 @@ a:hover{
   cursor: pointer;
   color:rgb(230, 57, 70);
 }
-.header,.experience,.projects,.contact,.intro{
+.header,.experience,.projects,.contact,.intro,.project{
   margin-top: 2%;
   margin-bottom: 3%;
   margin-left: 2%;
@@ -27,7 +27,7 @@ a:hover{
   display: flex;
   flex-direction: column;
 }
-.headbox,.contactbox,.introbox{
+.headbox,.contactbox,.introbox,.projectbox{
   text-align: left;
 }
 #name{
